@@ -1,8 +1,8 @@
 # Lab Report 1
 ## **Arunachalam Senthil**
 
+<img width="616" alt="Screenshot 2024-01-28 at 4 16 25 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/bc4a7c13-eeb2-4180-9b47-5a6f5c752f4d">
 
-<img width="686" alt="Screenshot 2024-01-16 at 5 30 21 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/421a17b7-1a7b-4471-b929-4dc76ff2cc4d">
 
 1. `cd`
 - Without any other arguments `cd` will change the working directory to home. So its basically just a way to always get back to the home directory
@@ -17,8 +17,8 @@
 - Yes there is an error because the path that is specified is not a directory.
 
 
+<img width="463" alt="Screenshot 2024-01-28 at 4 17 58 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/6915b64b-dc18-4fa4-a47d-0c274c877465">
 
-<img width="515" alt="Screenshot 2024-01-16 at 5 30 55 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/c105c161-c98a-489e-b153-42aef4bbd26c">
 
 1. `ls`
 - It lists the content of `ls`, which is `lecture1`. The command lists the the primary file
@@ -33,9 +33,9 @@
 - No error displayed
 
 
+<img width="308" alt="Screenshot 2024-01-28 at 4 18 58 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/647bba2f-88e6-4cca-8009-e79c3d1d3f70">
 
 
-<img width="391" alt="Screenshot 2024-01-16 at 5 31 55 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/4ba39aa8-3717-4b8f-8626-f7f765947425">
 
 1. For `cat`
 - The command `cat` is specifically for concatenating and displaying the content of the files. Its waiting for us to input text and then using a control bring the remainded of the text
