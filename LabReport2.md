@@ -5,9 +5,14 @@
 ## Part 1
 Screen Shot of my Code
 <img width="1160" alt="Screenshot 2024-01-30 at 5 24 29 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/a200b474-054a-486a-b789-0914e83a9f7d">
+
+- In this code what was initially called was the Handler, Handle Request and Chat Server 
+- Initially what happened is input value is set to jPolitz. The text is set to hello. And currently this is stored in the message history. The relevant arguments are the are the url that is stored in handle request and the main method stores the local host port, and all the messages that are typed.
+- In this we can see that it is stored. But it is message history 
+
 <img width="1099" alt="Screenshot 2024-01-30 at 5 25 03 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/e03357dc-82c2-4ce8-9931-9ebbb0a1bc4a">
 
-- The methods in my code that are called is Handler, HandleRequest, and chatServer
+- The methods in my code that are called is Handler, HandleRequest, and chatServer. Initially what happened is the message history stored what were the previous values. And so the input value was yash:, with a text input as well saying how are you?
 - The relevant arguements for the method of for the handle request would be the url which is passed, and for the main method the port of local host, message typed and the user typing it
 - There is one value that would chage in the code and the would be the messageHistory list because we are saving multiple changes in the URL that local host is using, the list increases in size.
 
@@ -25,13 +30,23 @@ Screen Shot of my Code
 
 ## Part 2
 
-These are the screenshot for the public and private key
+These are the screenshot for private key
 
-<img width="412" alt="Screenshot 2024-01-30 at 7 18 01 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/0da8252c-92c2-4380-b6ad-de14ffa32cea">
+<img width="294" alt="Screenshot 2024-02-13 at 3 47 50 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/c2ed6bf1-0bd8-4c9c-b05e-b67594987337">
 
-This was the command to log into ieng6 without the password
 
-<img width="761" alt="Screenshot 2024-01-30 at 7 21 46 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/b2f6f7ec-3084-424b-9fe3-eb699ec167b3">
+<img width="156" alt="Screenshot 2024-02-13 at 3 48 05 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/6b8ac52c-fd81-41e8-990b-0841079ab987">
+
+
+
+This is the screen shot for public key
+
+<img width="453" alt="Screenshot 2024-02-13 at 3 06 24 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/cff49ffb-51a8-43dc-90be-13109a5bf3c5">
+
+
+This was the command to log into ieng6 without the password:
+<img width="943" alt="Screenshot 2024-02-13 at 3 26 41 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/fdaead58-7ca7-43c9-8f44-f9249900df84">
+
 
 
 ## Part 3
