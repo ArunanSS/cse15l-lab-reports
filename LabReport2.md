@@ -6,20 +6,17 @@
 Screen Shot of my Code
 <img width="1160" alt="Screenshot 2024-01-30 at 5 24 29 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/a200b474-054a-486a-b789-0914e83a9f7d">
 
-- In this code what was initially called was the Handler, Handle Request and Chat Server 
-- Initially what happened is input value is set to jPolitz. The text is set to hello. And currently this is stored in the message history. The relevant arguments are the are the url that is stored in handle request and the main method stores the local host port, and all the messages that are typed.
-- In this we can see that it is stored. But it is message history 
 
 <img width="1099" alt="Screenshot 2024-01-30 at 5 25 03 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/e03357dc-82c2-4ce8-9931-9ebbb0a1bc4a">
-
-- The methods in my code that are called is Handler, HandleRequest, and chatServer. Initially what happened is the message history stored what were the previous values. And so the input value was yash:, with a text input as well saying how are you?
-- The relevant arguements for the method of for the handle request would be the url which is passed, and for the main method the port of local host, message typed and the user typing it
-- There is one value that would chage in the code and the would be the messageHistory list because we are saving multiple changes in the URL that local host is using, the list increases in size.
-
 
 ##Screen Shot of my Server
 
 <img width="605" alt="Screenshot 2024-01-30 at 5 28 03 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/bb2b15e1-391b-4d74-b8e5-d636193cadd1">
+
+- In this code what was initially called was the Handler, Handle Request and Chat Server 
+- Initially what happened is input value is set to jPolitz. The text is set to hello. And currently this is stored in the message history. The relevant arguments are the are the url that is stored in handle request and the main method stores the local host port, and all the messages that are typed.
+- In this we can see that it is stored. But it is message history 
+
 
 <img width="595" alt="Screenshot 2024-01-30 at 5 28 29 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/574a3a91-a96c-4463-b541-89a3182c1b41">
 
