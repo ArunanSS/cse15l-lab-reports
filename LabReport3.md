@@ -22,6 +22,57 @@ public void testAverageWithoutLowestNoChange() {
 }
 ```
 
+##  Symptom, as the output of running the tests
+
+<img width="1133" alt="Screenshot 2024-02-13 at 10 25 56 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/449e8611-5e59-44b8-8a98-50d84a384a2b">
+
+
+## Before Fix
+
+```java
+public static double averageWithoutLowest(int[] numbers) {
+    if (numbers.length < 2) {
+        throw new IllegalArgumentException("Array length must be at least 2");
+    }
+
+    int lowest = numbers[0];
+    int sum = 0;
+
+    for (int number : numbers) {
+        sum += number;
+
+        if (number < lowest) {
+            lowest = number;
+        }
+    }
+
+    return (double) (sum - lowest) / (numbers.length - 1);
+}
+```
+
+## After Fix
+
+```java
+public static double averageWithoutLowest(int[] numbers) {
+    if (numbers.length < 2) {
+        throw new IllegalArgumentException("Array length must be at least 2");
+    }
+
+    int sum = 0;
+
+    for (int number : numbers) {
+        sum += number;
+    }
+
+    int lowest = Arrays.stream(numbers).min().orElseThrow();
+
+    return (double) (sum - lowest) / (numbers.length - 1);
+}
+```
+
+## Brief Explanation
+The method's lowest value calculation had a problemn initially. To solve this we can see that the least value in the array is found using the incorrect array issue, and this makes it into a better  computation without mdthe lowest value.
+
 
 
 ### Part 2
@@ -66,6 +117,8 @@ Output:
 <img width="404" alt="Screenshot 2024-02-13 at 9 05 11 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/6f1108ee-d375-49c7-b89d-f8fe98eb7390">
 
 Sources: "https://www.baeldung.com/linux/recently-changed-files"
+
+
 
 How ChatGPT was used to help this: 
 Prompt: What are some command line operations that I can use in linux
