@@ -8,7 +8,7 @@ Step 4
 
 <img width="537" alt="Screenshot 2024-02-27 at 8 32 10 PM" src="https://github.com/ArunanSS/cse15l-lab-reports/assets/83483462/655ffe8d-90a2-47e7-a158-acda4f51de1b">
 
-The command that I used to run this was `ssh asenthil@ieng6.ucsd.edu`, then hit `<enter>`
+The command that I used to run this was ``ssh asenthil@ieng6.ucsd.edu``, then hit ``<enter>``
 
 
 Step 5
